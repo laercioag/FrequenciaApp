@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sinf.simplescanner.activities.SettingsActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary" />
+
+    <RelativeLayout
+        android:id="@+id/item_one_layout"
+        android:layout_below="@id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?android:attr/listChoiceBackgroundIndicator">
+
+        <ImageView
+            android:id="@+id/item_one_menu_icon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:paddingRight="16dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/ic_http_black_48dp"/>
+
+        <TextView
+            android:id="@+id/item_one_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/item_one_menu_icon"
+            android:text="@string/settings_change_domain"
+            android:textColor="@color/primary_text"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/item_one_subtitle"
+            android:layout_below="@id/item_one_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/item_one_menu_icon"
+            android:textColor="@color/secondary_text"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/item_two_layout"
+        android:layout_below="@id/item_one_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?android:attr/listChoiceBackgroundIndicator">
+
+        <ImageView
+            android:id="@+id/item_two_menu_icon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:paddingRight="16dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/ic_file_download_black_48dp"/>
+
+        <TextView
+            android:id="@+id/item_two_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/item_two_menu_icon"
+            android:text="@string/settings_save_to_offline"
+            android:textColor="@color/primary_text"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/item_two_subtitle"
+            android:layout_below="@id/item_two_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/item_two_menu_icon"
+            android:text="@string/settings_save_to_offline_description"
+            android:textColor="@color/secondary_text"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

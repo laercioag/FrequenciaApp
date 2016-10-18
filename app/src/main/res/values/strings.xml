@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Frequência</string>
+    <string name="app_settings">appSettings</string>
+    <string name="domain_settings">domainSetting</string>
+
+    <string name="title_activity_list_events">Eventos</string>
+    <string name="title_activity_list_periods">Períodos</string>
+    <string name="title_activity_list_participants">Participantes</string>
+    <string name="title_activity_settings">Configurações</string>
+    <string name="title_activity_continuous_capture">Scanner</string>
+
+    <string name="action_seach">Buscar</string>
+
+    <string name="snackbar_no_connection">Falha na conexão</string>
+    <string name="snackbar_no_connection_refresh">Tentar novamente</string>
+    <string name="snackbar_server_response_fail">Falha na conexão</string>
+    <string name="drawer_close"/>
+    <string name="drawer_open"/>
+
+    <string name="domain">Domínio de acesso</string>
+    <string name="dialog_default">Padrão</string>
+    <string name="domain_dialog_message">Inicie a URL com http://</string>
+    <string name="settings_change_domain">Alterar domínio de acesso</string>
+    <string name="settings_save_to_offline">Baixar para uso offline</string>
+    <string name="settings_save_to_offline_description">Salva os eventos atuais para uso offline</string>
+
+    <string name="settings_save_to_offline_notification_title">Frequência - Arquivos Offline</string>
+    <string name="settings_save_to_offline_notification_ticker_text">Frequência: Baixando arquivos…</string>
+    <string name="settings_save_to_offline_notification_ticker_final_text">Frequência: Arquivos baixados.</string>
+    <string name="settings_save_to_offline_notification_text">Baixando arquivos…</string>
+    <string name="settings_save_to_offline_notification_final_text">Arquivos baixados.</string>
+    <string name="settings_save_to_offline_notification_fail">Falha na conexão.</string>
+    <string name="settings_save_to_offline_notification_ticker_fail">Frequência: Falha na conexão.</string>
+
+    <string name="activity_list_participants_menu_resend">Reenviar frequência</string>
+    <string name="activity_list_participants_menu_download">Salvar frequência</string>
+    <string name="activity_list_participants_menu_clear">Limpar frequência</string>
+    <string name="activity_list_participants_menu_share">Compartilhar frequência</string>
+    <string name="activity_list_participants_delete_dialog_title">Confirmar deleção da frquência?</string>
+    <string name="activity_list_participants_delete_dialog_message">Esta ação é definitiva.\nOs arquivos já salvos não serão deletados.</string>
+
+    <string name="resend_frequency_notification_title">Frequência - Enviando frequência</string>
+    <string name="resend_frequency_notification_ticker_text">Frequência: Enviando frequência…</string>
+    <string name="resend_frequency_notification_ticker_final_text">Frequência: Frequência enviada.</string>
+    <string name="resend_frequency_notification_text">Eviando…</string>
+    <string name="resend_frequency_notification_final_text">Frequência enviada.</string>
+    <string name="resend_frequency_notification_fail">Falha na conexão.</string>
+    <string name="resend_frequency_notification_ticker_fail">Frequência: Falha na conexão.</string>
+
+    <string name="downloaded_frequency_notification_title">Frequência - Arquivo Salvo</string>
+    <string name="downloaded_frequency_notification_text">Arquivo salvo em /Download/Frequência.</string>
+    <string name="downloaded_frequency_notification_ticker">Frequência - Arquivo Salvo</string>
+
+    <string name="permission_camera_granted">Posicione o código dentro do visor para escaneá-lo.</string>
+    <string name="permission_camera_not_granted">Permissão para utilização da Câmera não concedida. Vá em Gerenciador de Aplicações > Frequência > Permissões para conceder a permissão da Câmera. </string>
+</resources>
