@@ -1,5 +1,6 @@
 # Frequencia App
 Simple app to display and register attendance to courses using a REST API and barcode scanner.
+
 Download the APK <a href="https://github.com/laercioag/FrequenciaApp/releases">here</a>.
 
 <img src="https://s13.postimg.org/e0ufoup4n/Android_Screenshot_1.png" width="360">
